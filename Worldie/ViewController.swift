@@ -21,6 +21,7 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
         super.viewDidLoad()
         UIApplication.shared.statusBarStyle = .lightContent
         
+        //Initializing views
         startChars()
         startTop()
         startHelper()

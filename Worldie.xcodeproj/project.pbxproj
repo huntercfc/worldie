@@ -14,8 +14,8 @@
 		0C2E32C81E67555D0059E169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2E32C61E67555D0059E169 /* LaunchScreen.storyboard */; };
 		0C2E32D31E67555D0059E169 /* WorldieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E32D21E67555D0059E169 /* WorldieTests.swift */; };
 		0C2E32DE1E67555D0059E169 /* WorldieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E32DD1E67555D0059E169 /* WorldieUITests.swift */; };
+		0C6662931E79F03400B4D18B /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6662921E79F03400B4D18B /* HelpView.swift */; };
 		0C76C9AA1E67CB10008DA0BE /* CharCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C76C9A91E67CB10008DA0BE /* CharCell.swift */; };
-		0C7A4C101E67912500F3D9E3 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A4C0F1E67912400F3D9E3 /* HelpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		0C2E32D91E67555D0059E169 /* WorldieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C2E32DD1E67555D0059E169 /* WorldieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldieUITests.swift; sourceTree = "<group>"; };
 		0C2E32DF1E67555D0059E169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6662921E79F03400B4D18B /* HelpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		0C76C9A91E67CB10008DA0BE /* CharCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharCell.swift; sourceTree = "<group>"; };
-		0C7A4C0F1E67912400F3D9E3 /* HelpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelpView.swift; path = ../HelpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 			children = (
 				0C2E32BD1E67555D0059E169 /* AppDelegate.swift */,
 				0C2E32BF1E67555D0059E169 /* ViewController.swift */,
+				0C6662921E79F03400B4D18B /* HelpView.swift */,
 				0C76C9A91E67CB10008DA0BE /* CharCell.swift */,
-				0C7A4C0F1E67912400F3D9E3 /* HelpView.swift */,
 				0C2E32C11E67555D0059E169 /* Main.storyboard */,
 				0C2E32C41E67555D0059E169 /* Assets.xcassets */,
 				0C2E32C61E67555D0059E169 /* LaunchScreen.storyboard */,
@@ -269,7 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C2E32C01E67555D0059E169 /* ViewController.swift in Sources */,
-				0C7A4C101E67912500F3D9E3 /* HelpView.swift in Sources */,
+				0C6662931E79F03400B4D18B /* HelpView.swift in Sources */,
 				0C2E32BE1E67555D0059E169 /* AppDelegate.swift in Sources */,
 				0C76C9AA1E67CB10008DA0BE /* CharCell.swift in Sources */,
 			);
