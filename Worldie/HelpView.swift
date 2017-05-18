@@ -18,6 +18,8 @@ class HelpView: UIView, UIScrollViewDelegate {
     var donateButton : UIButton!
     var helpButton : UIButton!
     
+    var desc : UILabel!
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.addViews()
@@ -32,6 +34,10 @@ class HelpView: UIView, UIScrollViewDelegate {
         title.text = "Charity: " + String(charID)
     }
     
+    //Have ranking based on name/rating
+    
+    
+    
     func addViews() {
         let width = self.bounds.width
         let height = self.bounds.height
@@ -39,6 +45,8 @@ class HelpView: UIView, UIScrollViewDelegate {
         headerView = UIImageView()
         donateButton = UIButton()
         helpButton = UIButton()
+        desc = UILabel()
+        
         let titleHeight : CGFloat = 70
         let titleWidth = width-16
         title.frame = getFrame(x: width/2, y: 100, width: titleWidth, height: titleHeight)
@@ -49,21 +57,28 @@ class HelpView: UIView, UIScrollViewDelegate {
         headerView.frame = CGRect(x: 0, y: 0, width: width, height: 200)
         
         let buttonWidth : CGFloat = 70
-        donateButton.frame = getFrame(x: width/4, y: 0.75*height, width: buttonWidth, height: buttonWidth)
-        helpButton.frame = getFrame(x: 3*width/4, y: 0.75*height, width: buttonWidth, height: buttonWidth)
+        donateButton.frame = getFrame(x: width/4, y: 0.9*height, width: buttonWidth, height: buttonWidth)
+        helpButton.frame = getFrame(x: 3*width/4, y: 0.9*height, width: buttonWidth, height: buttonWidth)
         donateButton.layer.cornerRadius = buttonWidth/2
         helpButton.layer.cornerRadius = buttonWidth/2
         donateButton.setTitle("Donate", for: UIControlState.normal)
-        helpButton.setTitle("Help", for: UIControlState.normal)
+        helpButton.setTitle("Learn More", for: UIControlState.normal)
         donateButton.setTitleColor(UIColor.white, for: UIControlState.normal)
         helpButton.setTitleColor(UIColor.white, for: UIControlState.normal)
         donateButton.backgroundColor = hexColor(hex: "2e5ce6")
         helpButton.backgroundColor = hexColor(hex: "02c38e")
         
+        helpButton.titleLabel?.font = UIFont.systemFont(ofSize: 12)
+        
+        desc.frame = getFrame(x: width/2, y: height/2, width: width, height: helpButton.frame.minY-title.frame.maxY)
+        desc.text = "Summary: Rating:"
+        desc.textAlignment = NSTextAlignment.center
+        
         self.addSubview(title)
         self.addSubview(headerView)
         self.addSubview(donateButton)
         self.addSubview(helpButton)
+        self.addSubview(desc)
         
         self.backgroundColor = UIColor.white
         self.layer.cornerRadius = self.frame.width/8

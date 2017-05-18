@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Foundation
+
+//Queue the Charity Navigator API using JSON using the Spine Framework
 
 class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
 
@@ -14,7 +17,8 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
     var top: UIView!//The navigation bar at the top
     let width = UIScreen.main.bounds.width //Useful dims for making views
     let height = UIScreen.main.bounds.height
-    var helper : HelpView! = nil //The view that
+    var helper : HelpView! = nil //The popup charity info view
+    
     
     //Called as soon as our app starts
     override func viewDidLoad() {

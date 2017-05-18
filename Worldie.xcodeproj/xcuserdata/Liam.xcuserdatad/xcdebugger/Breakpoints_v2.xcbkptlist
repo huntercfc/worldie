@@ -10,13 +10,152 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Worldie/ViewController.swift"
-            timestampString = "510117594.397923"
+            timestampString = "514999551.277644"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
             landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Worldie/ViewController.swift"
+            timestampString = "514999496.571572"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Worldie.ViewController.__deallocating_deinit"
+                  moduleName = "Worldie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Liam/Desktop/C4C/Worldie/Worldie/ViewController.swift"
+                  timestampString = "514999500.258387"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Worldie.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Worldie.ViewController"
+                  moduleName = "Worldie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Liam/Desktop/C4C/Worldie/Worldie/ViewController.swift"
+                  timestampString = "514999500.261712"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Worldie.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Worldie.ViewController"
+                  moduleName = "Worldie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Liam/Desktop/C4C/Worldie/Worldie/ViewController.swift"
+                  timestampString = "514999500.263025"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Worldie.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Worldie.ViewController&gt;"
+                  moduleName = "Worldie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Liam/Desktop/C4C/Worldie/Worldie/ViewController.swift"
+                  timestampString = "514999500.264304"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Worldie.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Worldie.ViewController&gt;"
+                  moduleName = "Worldie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Liam/Desktop/C4C/Worldie/Worldie/ViewController.swift"
+                  timestampString = "514999500.265743"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Worldie/HelpView.swift"
+            timestampString = "514999736.85872"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "HelpView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Worldie.HelpView.init (frame : __C.CGRect) -&gt; Worldie.HelpView"
+                  moduleName = "Worldie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Liam/Desktop/C4C/Worldie/Worldie/HelpView.swift"
+                  timestampString = "514999737.234898"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Worldie.HelpView.__allocating_init (frame : __C.CGRect) -&gt; Worldie.HelpView"
+                  moduleName = "Worldie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Liam/Desktop/C4C/Worldie/Worldie/HelpView.swift"
+                  timestampString = "514999737.236566"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
